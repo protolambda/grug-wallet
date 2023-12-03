@@ -1,0 +1,48 @@
+{
+
+  "manifest_version": 2,
+  "name": "grug-wallet",
+  "version": "0.1",
+  "homepage_url": "https://github.com/protolambda/grug-wallet",
+
+  "description": "Web3 wallet",
+  "icons": {
+    "48": "icons/grug-48.png"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+     "32" : "icons/grug.svg"
+    },
+    "theme_icons": [{
+      "light": "icons/grug.svg",
+      "dark": "icons/grug.svg",
+      "size": 32
+    }],
+    "default_title": "grug-wallet",
+    "default_popup": "popup/menu.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_scripts/inject_provider.js"]
+    }
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "grug-wallet@protolambda.com"
+    }
+  }
+
+}
