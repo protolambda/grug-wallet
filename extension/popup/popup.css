@@ -1,0 +1,12 @@
+/* This is css that applies to the popup.html file. It is currently just a boilerplate */
+body {
+    background-color: #420;
+    color: #000;
+
+    width: 16rem;
+    height: 4rem;
+}
+
+.special-text {
+    color: #EB0822;
+}

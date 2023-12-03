@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Grug wallet",
+    "description": "A web3 wallet for Grug, by Grug",
+    "version": "0.0.1",
+    "icons": {
+        "16": "logo/logo-16.png",
+        "48": "logo/logo-48.png",
+        "128": "logo/logo-128.png"
+    },
+    "options_page": "settings/settings.html",
+    "action": {
+        "default_title": "Grug wallet",
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": [],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "content_scripts": [{
+        "js": ["foreground.js"],
+        "matches": ["<all_urls>"]
+    }, {
+        "js": ["easteregg.js"],
+        "matches": ["https://app.optimism.io"]
+    }]
+}
