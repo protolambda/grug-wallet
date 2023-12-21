@@ -336,7 +336,7 @@ are all just different dotfile-like data-sources!
 - Contract ABI are also just scripts:
   - there may be an etherscan-API powered source
   - there may be a local DB
-  - there may be various local reposities with build artifacts
+  - there may be various local repositories with build artifacts
   - there may just be a JSON file
 - Account status is also just scripts:
   - ERC20 balance lookups may be defined by the user as `cast` commands.
