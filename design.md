@@ -13,7 +13,7 @@ But they all feel the same:
 - Show last few trades
 - Sign transactions
 
-As a long-term user you eventually get tired of the above: it does not work in your favor.
+As a long-term user, you eventually get tired of the above: it does not work in your favor.
 It's a mix of hot-keys, swap bloatware, account management, and privacy issues if you look closer at it.
 
 ### Issues
@@ -51,7 +51,7 @@ Most wallets seem to get so many things "wrong" (from my perspective):
   - Why can I not persist and privately share address labels, without leaking them to a centralized service?
   - Why can I not label *other* addresses outside the wallet.
     - As a degen, how can I track the OPP?
-    - As a user, how can can I track my accounts?
+    - As a user, how can I track my accounts?
   - Coloring / noting addresses: apparently online poker UX is ahead of web3 UX.
     Auto-generated "blockie" address "profile-pics" were a start,
     but why not let the user customize something simple like a color, or add a note? 
@@ -95,7 +95,7 @@ It made some wallet vendors unhappy. Some rightfully so, some are actually build
 or focused on onboarding non-technical users. Others are just copy-cats of metamask. I need something different than that.
 
 Everyone wants to build the crypto everything app. Become a platform. I get it, every crypto dev does.
-But I want that platform at a safe distance from my keys, to respect my privacy, to not lock me in, 
+But I want that platform at a safe distance from my keys, to respect my privacy, and to not lock me in, 
 and not assume my orderflow. Crypto should be a tool to serve, not to capture, the users.
 
 ### Embedded wallets
@@ -174,15 +174,15 @@ Like embedded wallets, it allows the dapp to bring more of the wallet features, 
 But with abstraction comes complexity, something to stay alert of.
 
 It is magical to send a friend a link, and the link onboards them right on to the dapp,
-but I feel more transparency and explicit key-ownership can help the power-user:
-if it's not about a simple coffee-size payment I want to know what's happening.
+however, I feel more transparency and explicit key-ownership can help the power-user:
+if it's not about a simple coffee-size payment, I want to know what's happening.
 
 ### Legacy and universal accounts
 
 Not all "dapps" are the same. New social / integrated experiences can benefit from an embedded wallet
 and better onboarding flow, giving the user a quick dapp-specific identity.
 
-But many of the dapps that have found PMF with the power-users are not like that.
+Many of the dapps that have found PMF with the power-users are not like that.
 The web3 masterminds have taken "sovereignty of your data" and turned it into "use the same account everywhere".
 
 Reusing an account is quite common in ethereum, even though in all honesty it is bad practice.
@@ -262,7 +262,7 @@ The key here is that the *user brings their own configs* (dotfiles, datasources)
 Just because the "web3" is local-first, does not mean we cannot use backend tech.
 Rather, it's the opposite: if there is anything the user should self-host, it is the backend.
 
-Running a full node is maybe not for every user, but running a light-client is.
+Maybe running a full node is not for every user, but running a light-client is.
 This solves many of the offchain privacy and security issues, by not relying on centralized trusted defaults.
 
 Now, the next step is to run the wallet like this: decoupled, free from the browser.
