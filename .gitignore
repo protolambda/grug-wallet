@@ -1,2 +1,6 @@
 /bin
 /config
+
+# Temporary, templates are changing so actively that it's not worth checking in the generated code
+# Just run "templ generate" to create these
+*_templ.go
